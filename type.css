@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 body {
     position: relative;
@@ -107,6 +107,43 @@ gr {
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
+}
+
+#text_id {
+    position: relative;
+    top: 8px;
+    width: 51px;
+    left: 50%;
+    margin: 0px -25.5px;
+    font-size: 16px;
+}
+
+#progress {
+    position: relative;
+    top: 25px;
+    height: 4px;
+    width: 100%;
+    background: #555;
+}
+
+#prog_val {
+    position: relative;
+    height: 100%;
+    width: 0%;
+    background: white;
+    transition: ease 2s;
+}
+
+#prog_show {
+    position: relative;
+    height: 11px;
+    width: 11px;
+    background: red;
+    top: -8px;
+    left: 0%;
+    background: #a600ff;
+    border-radius: 50%;
+    transition: ease 2s;
 }
 
 #input {
