@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>&lt;typing/&gt;</title>
+    <link rel="icon" href="{{url_for("static", filename="favicon.png")}}">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" type="text/css" href="{{url_for("static", filename="css/type.css")}}">
+    <script type="text/javascript" src="{{url_for("static", filename="js/jquery-3.4.1.min.js")}}"></script>
+    <script type="text/javascript" src="{{url_for("static", filename="js/text.js")}}"></script>
+    <script type="text/javascript" src="{{url_for("static", filename="js/type.js")}}"></script>
+</head>
+    <body>
+        <div id="main" class="noselect">
+            <div id="title">&lt;typing/&gt;</div>
+            <div id="numberz">
+                <div id="best"><gr>Best:</gr> <strong>--.--</strong></div>
+                <div id="est"><gr>Estimated WPM:</gr> <strong>--.--</strong></div>
+            </div>
+            <div id="type">
+                <div id="text"></div>
+                <input type="text" placeholder="" autocomplete="off" id="input" value="">
+            </div>
+            <div id="progress"></div>
+            <div id="results"></div>
+        </div>
+    </body>
+</html>
